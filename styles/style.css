@@ -153,6 +153,10 @@ label {
     margin-bottom: 8px;
     font-weight: bold;
 }
+.form-button{
+    width:520px;
+    height: 62px;
+}
 
 input,
 textarea {
@@ -290,3 +294,4 @@ button:hover {
     display: flex;
     gap: 15px;
 }
+
