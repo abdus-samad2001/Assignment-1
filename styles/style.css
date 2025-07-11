@@ -1,99 +1,204 @@
-
-.inter{
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
+.inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
+
 /* shared style */
-.text-primary{
+.text-primary {
     color: #4E47FF;
 }
-.dark{
+
+.dark {
     color: #252432;
 }
-.btn-primary{
+
+.btn-primary {
     background-color: #4E47FF;
     color: #FFFFFF;
     padding: 12px 36px;
     border-radius: 10px;
     border: none;
 }
+
 /* header */
-.header{
+.header {
     background-image: url('../Assets/Hero-bg.png');
 }
+
 /* nav styles */
-nav{
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 0 150px;
 }
-.nav-title{
-    font-weight:black;
+
+.nav-title {
+    font-weight: black;
     font-size: 34px;
 }
 
 /* banner styles */
-.banner-title{
+.banner-title {
     font-weight: bold;
     font-size: 65px;
-    
+
 }
-.banner{
-   text-align: center;
-   margin-top: 158px;
+
+.banner {
+    text-align: center;
+    margin-top: 158px;
 }
-.btn-2{
-    margin-top:37px;
+
+.btn-2 {
+    margin-top: 37px;
     margin-bottom: 152px;
-} 
+}
 
 /* action styles */
-.action-title{
+.action-title {
     font-weight: bold;
     font-size: 42px;
 }
-.action-description{
-    font-weight:400;
+
+.action-description {
+    font-weight: 400;
     font-size: 24px;
 }
-.action{
+
+.action {
     display: flex;
     justify-content: space-between;
     margin: 116px 159px 0 141px;
 }
-.action-image{
+
+.action-image {
     border-radius: 48px;
 }
 
 /* productive-section */
-.productive-section{
-   background-color: #cccbe496;
+.productive-section {
+    background-color: #cccbe496;
     margin: 116px 159px 0 141px;
     border-radius: 24px;
 }
-.productive-section-title{
+
+.productive-section-title {
     font-weight: bold;
     font-size: 38px;
     text-align: center;
     margin: 50px 142px 0 142px;
     padding-top: 30px;
 }
-.blue-bold{
+
+.blue-bold {
     font-weight: bold;
     font-size: 80px;
     color: #4E47FF;
     justify-content: space-between;
 }
-.h4-description{
+
+.h4-description {
     color: #000000;
     font-weight: 400;
     font-size: 20px;
     margin-top: 2px
 }
-.flex{
+
+.flex {
     display: flex;
     justify-content: space-between;
-     margin: 40px 142px 50px 142px;
+    margin: 40px 142px 50px 142px;
+}
+
+/* Touch-Section */
+.touch-parent {
+    display: flex;
+    max-width: 1140px;
+    margin: 97px 150px;
+    overflow: hidden;
+    justify-content:space-between;
+    
+}
+
+.touch-section {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.touch-section h1 {
+    font-size: 97px;
+    font-weight: bold;
+    color:#000000;
+    width: 497px;
+    text-align: left;
+}
+.touch-child{
+     flex: 2;
+  padding: 40px;
+  margin-left: 163px 150px 0 115px
+}
+.form-label{
+    margin-bottom: 20px;
+    max-width: 497px;
+}
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+textarea {
+  height: 100px;
+  resize: vertical;
+}
+
+button {
+  background:#4E47FF;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 497px;
+}
+button:hover {
+  background: #0d7451;
+}
+
+/* footer styles */
+.logo-footer{
+    font-weight: bold;
+    font-size: 100px;
+    margin-bottom: 0;
+}
+.footer-li li{
+    display: inline;
+    list-style: none;
+    margin-right: 48px;
+}
+.parent-footer{
+    display: block;
+    justify-items: center;
+    max-width: 104px 455px;
+}
+.parent-footer li a{
+    text-decoration: none;
+    color: #252432;
+}
+.parent-footer p{
+    margin: o auto;
+}
+.footer-li{
+   padding: 5px;
 }
